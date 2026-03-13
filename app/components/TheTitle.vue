@@ -10,10 +10,19 @@
   </div>
   <nav>
     <ul class="flex items-center space-x-6 p-2 rounded font-bold">
-      <li><button class="p-2 rounded hover:bg-slate-700 ">Home</button></li>
-      <li><button class="p-2 rounded hover:bg-slate-700">Projects</button></li>
-      <li><button class="p-2 rounded hover:bg-slate-700">CV</button></li>
-      <li><button class="p-2 rounded hover:bg-slate-700">Contact</button></li>
+
+      <NuxtLink to="/">
+        <li><button class="p-2 rounded hover:bg-slate-700">Home</button></li>
+      </NuxtLink>
+      <NuxtLink to="/projects">
+       <li><button class="p-2 rounded hover:bg-slate-700">Projects</button></li>
+      </NuxtLink>
+      <NuxtLink to="/cv">
+        <li><button class="p-2 rounded hover:bg-slate-700">CV</button></li>
+      </NuxtLink>
+      <NuxtLink to="/contact">
+        <li><button class="p-2 rounded hover:bg-slate-700">Contact</button></li>
+      </NuxtLink>
     </ul>
   </nav>
 </header>
