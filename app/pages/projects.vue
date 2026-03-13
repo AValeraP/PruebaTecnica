@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+import ProjectCardView from '~/components/ProjectCardView.vue';
+</script>
 <template>
-    <h1>Projects</h1>
+<ProjectCardView></ProjectCardView>
 </template>
