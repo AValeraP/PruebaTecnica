@@ -9,8 +9,7 @@
     Alejandro Valera
   </div>
   <nav>
-    <ul class="flex items-center space-x-6 p-2 rounded text-xl font-bold">
-
+    <ul class="flex items-center space-x-6 p-2 rounded font-bold">
       <NuxtLink to="/">
         <li><button class="p-2 rounded hover:bg-slate-700">Home</button></li>
       </NuxtLink>
