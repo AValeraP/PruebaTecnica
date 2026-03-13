@@ -1,5 +1,5 @@
 <script setup>
-import { projects } from '~/data/mocks';
+import { projects } from '~/data/mocksProjectCards';
 import ProjectCard from './ProjectCard.vue';
 </script>
 

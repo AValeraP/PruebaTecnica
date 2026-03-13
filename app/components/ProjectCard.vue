@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { projects } from '~/data/mocks'
+import { projects } from '~/data/mocksProjectCards'
 interface ProjectProp{
     image?: string,
     title: string,
