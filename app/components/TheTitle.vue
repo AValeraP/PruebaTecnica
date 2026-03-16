@@ -4,7 +4,7 @@
 
 <template>
 
-<header class="flex justify-between items-center bg-stone-900 text-purple-500 p-10">
+<header class="flex justify-between items-center bg-slate-900 text-purple-500 p-10">
   <div class="text-xl ml-28 font-bold">
     Alejandro Valera
   </div>
