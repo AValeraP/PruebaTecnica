@@ -4,7 +4,7 @@ import TheFooter from '~/components/TheFooter.vue'
 </script>
 
 <template>
-    <div class="bg-sky-700">
+    <div class="bg-slate-950">
 <TheTitle></TheTitle>
 <slot></slot>
 <TheFooter></TheFooter>
