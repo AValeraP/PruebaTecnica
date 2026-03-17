@@ -1,7 +1,7 @@
 <script setup>
-import Presentation from '~/components/Presentation.vue';
-import Techs from '~/components/Techs.vue';
-import AboutMe from '~/components/AboutMe.vue';
+import Presentation from '~/Home/Presentation.vue';
+import Techs from '~/Home/Techs.vue';
+import AboutMe from '~/Home/AboutMe.vue';
 </script>
 <template >
         <Presentation></Presentation>

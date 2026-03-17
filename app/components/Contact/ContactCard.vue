@@ -13,15 +13,15 @@
     </div>
 
     <div class="inline-flex flex-col  items-stretch">
-        <div class=" m-3 p-3 border border-fuchsia-950 shadow bg-fuchsia-950 rounded">
+        <div class=" m-3 p-3 shadow bg-purple-900 rounded">
             <h2 class="text-gray-300 font-normal text-xs m-2"> Email me</h2>
             <p class="text-white font-normal m-2">avaleraprieto@gmail.com</p>
         </div>
-        <div class=" m-3 p-3 border border-fuchsia-950 shadow bg-fuchsia-950 rounded">
+        <div class=" m-3 p-3 shadow bg-purple-900 rounded">
             <h2 class=" font-normal text-white text-xs m-2">My telephone number</h2>
             <p class="text-white font-normal m-2">213123123</p>
         </div>
-        <div class=" m-3 p-3 border border-fuchsia-950 shadow bg-fuchsia-950 rounded">
+        <div class=" m-3 p-3 shadow bg-purple-900 rounded">
             <h2 class=" font-normal text-white text-xs m-2">Location</h2>
             <p class="text-white font-normal m-2">Madrid</p>
         </div>
