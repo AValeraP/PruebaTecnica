@@ -1,4 +1,7 @@
-<script setup></script>
+<script setup>
+import ContactCard from '~/components/Contact/ContactCard.vue';
+</script>
 <template>
-    <h1>Contacto</h1>
+    <ContactCard></ContactCard>
 </template>
+
