@@ -1,0 +1,20 @@
+{
+    "coreSkills":{
+        "html": "html",
+        "css": "CSS",
+        "java-script":"Java-Script",
+        "type-script":"Type-Script",
+        "vue.js":"Vue.js",
+        "react":"React",
+        "angular": "Angular",
+        "node.js": "Node.js",
+        "php": "PHP",
+        "laravel": "Laravel",
+        "mysql": "MySQL",
+        "pl-sql":"PL-SQL",
+        "git": "Git",
+        "github":"Github",
+        "vercel":"Vercel",
+        "aws":"AWS"
+    }
+}
