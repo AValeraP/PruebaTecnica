@@ -1,10 +1,10 @@
 <template >
-        <div class="grid grid-cols-2 rounded m-5">
-            <div class="">
-             <img src="/resources/img/profilepicture.png" width="200" alt="mi foto"> <!--Añadir img de linkedin-->
+        <div class="grid grid-cols-2 rounded m-5 border-2">
+            <div class="border-2 rounded m-2 p-2">
+             <img src="" width="200" alt="mi foto"> <!--Añadir img de linkedin-->
             </div>
 
-            <div class="border-2">
+            <div class=" border-2 rounded m-2 p-2">
                 <p class="inline-flex items-stretch p-5 m-5 w-auto stretched rounded mx-3 my-1  bg-purple-900 font-bold text-fuchsia-600 text-xs">AVAILABLE FOR NEW PROJECTS</p>
                 <h1 class="p-2 px-5 text-white font-extrabold">Alejandro Valera
                     <span class="text-fuchsia-600">.</span>

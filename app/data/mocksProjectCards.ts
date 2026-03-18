@@ -23,4 +23,16 @@ export const projects = [
         description: 'Project 4 on development',
         link: '',
     },
+    {
+        title: 'Project 5',
+        image: 'img',
+        description: 'Project 5 on development',
+        link: '',
+    },
+    {
+        title: 'Project 6',
+        image: 'img',
+        description: 'Project 6 on development',
+        link: '',
+    },
 ]
