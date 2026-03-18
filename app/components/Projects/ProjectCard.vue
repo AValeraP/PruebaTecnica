@@ -28,14 +28,13 @@ const props = withDefaults(defineProps<ProjectProp>(), {
             <p class="text-gray-600 text-sm mb-4 line-clamp-3">{{ props.description }}</p>
             
             <!-- Enlace -->
-             <NuxtLink to="/">
                 <a 
+                :href="props.link"
                 target="_blank"
                 class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded transition-colors duration-200"
             >
                 Ver Proyecto →
             </a>
-             </NuxtLink>
            
         </div>
     </div>

@@ -1,0 +1,14 @@
+{
+    "email":{
+        "description": "Email me",
+        "email": "avaleraprieto@gmail.com"
+    },
+    "telephone":{
+        "description": "My telephone number",
+        "email": "601081485"
+    },
+    "location":{
+        "description": "Location",
+        "location": "Madrid"
+    }
+}

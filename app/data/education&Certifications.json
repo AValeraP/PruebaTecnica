@@ -1,0 +1,11 @@
+{
+    "daw":{
+        "age": "2024-2026",
+        "description": "DAW: Upper Level Vocational Training on Web Development Applications"
+    },
+    "aws":{
+        "age": "2026",
+        "description": "AWS Certified Cloud Practitioner."
+    }
+
+}

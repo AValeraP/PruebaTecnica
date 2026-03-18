@@ -42,7 +42,8 @@
         </div>
 
         <div class="bg-gradient-to-br from-purple-900 to-purple-800 p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 border border-purple-700">
-            <h1 class="font-extrabold text-2xl text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-400 to-purple-400 py-4 mb-4 border-b border-purple-600 pb-4">Education</h1>
+            <h1 class="flex  font-extrabold text-2xl text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-400 to-purple-400 py-4 mb-4 border-b border-purple-600 pb-4">Education and Certifications
+            </h1>
             <div class="space-y-4">
                 <div class="bg-purple-700 bg-opacity-50 p-4 rounded-lg border-l-4 border-fuchsia-500">
                     <p class="text-fuchsia-400 font-bold text-sm">2024 - 2026</p>
