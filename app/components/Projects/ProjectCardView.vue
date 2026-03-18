@@ -5,7 +5,7 @@ import ProjectCard from './ProjectCard.vue';
 
 <template>
     <div class="p-8 max-w-7xl mx-auto">
-        <h2 class="text-4xl rounded m-5 p-5 mb-12 text-center bg-slate-800 text-white font-extrabold">Mis Proyectos</h2>
+        <h2 class="w-fit text-4xl rounded m-auto p-5 mb-12 text-center bg-purple-900 text-fuchsia-600 font-extrabold">My personal projects </h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <ProjectCard
                 v-for="(project, index) in projects"
