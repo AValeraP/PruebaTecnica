@@ -14,7 +14,14 @@ export default defineNuxtConfig({
 
   // 2. Define que tu carpeta de desarrollo es "app"
   srcDir: 'app/',
-
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss', '@pinia/nuxt']
+  modules: ['@nuxtjs/tailwindcss', '@pinia/nuxt'],
+
+  app: {
+    head: {
+      htmlAttrs: {
+        lang: 'en' 
+      }
+    }
+  }
 })

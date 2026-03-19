@@ -1,20 +1,61 @@
 {
     "coreSkills":{
-        "html": "html",
-        "css": "CSS",
-        "java-script":"Java-Script",
-        "type-script":"Type-Script",
-        "vue.js":"Vue.js",
-        "react":"React",
-        "angular": "Angular",
-        "node.js": "Node.js",
-        "php": "PHP",
-        "laravel": "Laravel",
-        "mysql": "MySQL",
-        "pl-sql":"PL-SQL",
-        "git": "Git",
-        "github":"Github",
-        "vercel":"Vercel",
-        "aws":"AWS"
+
+
+
+        "html":{
+            "id":"1",
+            "name": "HTML"
+        },
+        "css":{
+            "id":"2",
+            "name":"CSS"
+        },
+        "js":{
+            "id":"3",
+            "name":"Java-Script"
+        },
+        "ts":{
+            "id":"4",
+            "name":"Type-Script"
+        },
+         "vue.js":{
+            "id":"5",
+            "name":"Vue.js"
+        }, "angular":{
+            "id":"6",
+            "name":"Angular"
+        }, "react":{
+            "id":"7",
+            "name":"React"
+        }, "node.js":{
+            "id":"8",
+            "name":"Node.js"
+        }, "php":{
+            "id":"9",
+            "name":"PHP"
+        }, "laravel":{
+            "id":"10",
+            "name":"Laravel"
+        }, "mysql":{
+            "id":"11",
+            "name":"MySQL"
+        }, "pl-sql":{
+            "id":"12",
+            "name":"PL-SQL"
+        }, "git":{
+            "id":"13",
+            "name":"Git"
+        },"github":{
+            "id":"14",
+            "name":"GitHub"
+        },"vercel":{
+            "id":"15",
+            "name":"Vercel"
+        },"aws":{
+            "id":"16",
+            "name":"AWS"
+        }
+        
     }
 }

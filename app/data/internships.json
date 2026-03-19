@@ -1,10 +1,12 @@
 {
-    "alebat":{
+    "internships":{
+          "alebat":{
         "name":"Alebat Management Consulting",
-        "description":"Worked as an intern employee for the consulting company Alebat as front-end developer on vue projects. Developed responsive websites for various clients and designed courses card and header images."
+        "description":"Worked as an intern employee for the consulting company Alebat as front-end developer on vue projects. Developed responsive websites for various clients and designed courses cards and header images."
     },
     "sapimsa":{
         "name":"Sapimsa S.A",
         "description":"Worked on the migration of processes and services from SAP R/3 to SAP S/4HANA, enabling real-time business operations, AI-driven analytics and streamlined processes"
+    }
     }
 }
