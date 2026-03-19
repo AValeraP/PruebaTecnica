@@ -7,7 +7,7 @@ export default defineNuxtConfig({
     app: {
     head: {
       htmlAttrs: {
-        lang: 'es', // o 'en'
+        lang: 'en', // o 'en'
       }
     }
   },
@@ -16,12 +16,4 @@ export default defineNuxtConfig({
   srcDir: 'app/',
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss', '@pinia/nuxt'],
-
-  app: {
-    head: {
-      htmlAttrs: {
-        lang: 'en' 
-      }
-    }
-  }
 })
