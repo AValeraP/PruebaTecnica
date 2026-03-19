@@ -82,4 +82,3 @@ import infoContacto from '~/data/contactCards.json'
      </div>
     </div>
 </template>
-
