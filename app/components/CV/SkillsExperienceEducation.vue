@@ -1,8 +1,13 @@
 <script setup>
+import infoSkills from "~/data/coreSkills.json"
+import infoEducation from "~/data/education&Certifications.json"
+import infoInternships from "~/data/internships.json"
 
 </script>
 <template>
     <div class="grid grid-cols-3 gap-8 m-6 p-8 max-w-7xl mx-auto">
+        
+        <!--
         <div class="bg-gradient-to-br from-purple-900 to-purple-800 p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 border border-purple-700">
             <h1 class="font-extrabold text-2xl text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-400 to-purple-400 py-4 mb-4 border-b border-purple-600 pb-4">Core Skills</h1>
             <div class="flex flex-row flex-wrap  gap-3">
@@ -25,7 +30,28 @@
 
             </div>
         </div>
-
+        -->
+        <div class=" m-1  gap-3 bg-gradient-to-br from-purple-900 to-purple-800 p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 border border-purple-700">
+            <h2 class="font-extrabold text-2xl text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-400 to-purple-400 py-4 mb-4 border-b border-purple-600 pb-4">Core Skills</h2>
+            <div class="flex flex-row flex-wrap"
+            >
+         <label v-for="(item, key) in infoSkills.coreSkills"
+         :key="item.id" 
+         class="mx-1 my-0.5 text-white font-semibold bg-gradient-to-r from-fuchsia-600 to-purple-600 hover:from-fuchsia-500 hover:to-purple-500 border border-fuchsia-500 rounded-full p-4 py-2 text-xs whitespace-nowrap cursor-pointer transition-all duration-200 transform hover:scale-105">{{ item.name }}</label>
+            </div>
+        </div>
+       
+        <div class="bg-gradient-to-br from-purple-900 to-purple-800 p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 border border-purple-700">
+            <h1 class="font-extrabold text-2xl text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-400 to-purple-400 py-4 mb-4 border-b border-purple-600 pb-4">Internships</h1>
+            <div 
+            v-for="(item, key) in infoInternships.internships"
+            class="space-y-5 rounded-lg border-l-4 border-fuchsia-500 bg-purple-700 mb-2 py-2 px-1" >
+            <p class="font-bold text-fuchsia-400 text-sm">{{ item.name }}</p>
+            <p class="font-semibold text-white text-xs mt-2 leading-relaxed">{{ item.description }}</p>
+            </div>
+        </div>
+        
+        <!--
         <div class="bg-gradient-to-br from-purple-900 to-purple-800 p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 border border-purple-700">
             <h1 class="font-extrabold text-2xl text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-400 to-purple-400 py-4 mb-4 border-b border-purple-600 pb-4">Internships</h1>
             <div class="space-y-5">
@@ -40,7 +66,22 @@
                 </div>
             </div>
         </div>
+    -->
 
+        <div class="bg-gradient-to-br from-purple-900 to-purple-800 p-5 rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 border border-purple-700">
+            <h2 class="flex font-extrabold text-2xl text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-400 to-purple-400  mb-4 border-b border-purple-600 pb-2">Education and Certifications</h2>
+            <div 
+            v-for="(item, key) in infoEducation.courses"
+            class="space-y-2">
+                <div class="bg-purple-700 bg-opacity-50 p-4 rounded-lg border-l-4 border-fuchsia-500 my-1">
+                    <p class="text-fuchsia-400 font-bold text-sm ">{{ item.age }}</p>
+                    <p class="font-semibold text-white text-xs mt-2 leading-relaxed">{{ item.description }}</p>
+                </div>
+            </div>
+        </div>
+        
+        
+        <!--
         <div class="bg-gradient-to-br from-purple-900 to-purple-800 p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 border border-purple-700">
             <h1 class="flex  font-extrabold text-2xl text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-400 to-purple-400 py-4 mb-4 border-b border-purple-600 pb-4">Education and Certifications
             </h1>
@@ -49,12 +90,13 @@
                     <p class="text-fuchsia-400 font-bold text-sm">2024 - 2026</p>
                     <p class="font-semibold text-white text-xs mt-2 leading-relaxed">DAW: Upper Level Vocational Training on Web Development Applications</p>
                 </div>
-                
                 <div class="bg-purple-700 bg-opacity-50 p-4 rounded-lg border-l-4 border-fuchsia-500">
                     <p class="text-fuchsia-400 font-bold text-sm">2026 - 2027</p>
                     <p class="font-semibold text-white text-xs mt-2 leading-relaxed">DAM: Upper Level Vocational Training on Multiplatform Applications</p>
                 </div>
             </div>
         </div>
+        -->
+        
     </div>
 </template>
