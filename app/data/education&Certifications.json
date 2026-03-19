@@ -7,7 +7,12 @@
         "aws":{
         "age": "2026",
         "description": "AWS Certified Cloud Practitioner."
-    }
+    },
+        "htb":{
+            "age": "2026",
+            "description": "Hack The Box Certified Junior Cybersecurity Associate"
+        }
+    
     }
     
 }
