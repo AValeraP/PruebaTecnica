@@ -4,6 +4,13 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4,
   },
+    app: {
+    head: {
+      htmlAttrs: {
+        lang: 'es', // o 'en'
+      }
+    }
+  },
 
   // 2. Define que tu carpeta de desarrollo es "app"
   srcDir: 'app/',
