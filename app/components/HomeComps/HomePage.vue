@@ -22,7 +22,6 @@ const techs = [
 <template>
   <div class="max-w-7xl mx-auto px-6 py-8 flex flex-col gap-8">
 
-    <!-- HERO -->
     <div class="grid grid-cols-2 gap-8 bg-gradient-to-br from-purple-900 to-purple-800 p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 border border-purple-700">
       <div class="flex justify-center items-center bg-purple-700 bg-opacity-50 rounded-xl border border-purple-600 p-4">
         <img src="" width="200" alt="mi foto" class="rounded-xl" />
@@ -51,7 +50,6 @@ const techs = [
       </div>
     </div>
 
-    <!-- ABOUT ME -->
     <div class="bg-gradient-to-br from-purple-900 to-purple-800 p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 border border-purple-700">
       <h2 class="font-extrabold text-2xl text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-400 to-purple-400 py-4 mb-4 border-b border-purple-600 pb-4">
         About Me
@@ -64,11 +62,6 @@ const techs = [
       </p>
     </div>
 
-
- 
-     
-
-    <!-- TECH STACK -->
     <div class="bg-gradient-to-br from-purple-900 to-purple-800 p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 border mb-10 border-purple-700">
       <h2 class="font-extrabold text-2xl text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-400 to-purple-400 py-4 mb-4 border-b border-purple-600 pb-4">
         Tech Stack
@@ -79,7 +72,7 @@ const techs = [
           :key="tech.name"
           class="flex flex-col justify-center items-center gap-2 bg-purple-700 bg-opacity-50 p-4 rounded-xl border border-purple-600 hover:border-fuchsia-500 transition-all duration-200 transform hover:scale-105"
         >
-          <a :href="tech.href || undefined" target="_blank" :aria-label="tech.name">
+          <a  :aria-label="tech.name">
             <img :src="tech.icon" :alt="tech.name" class="w-10 h-10" />
           </a>
           <span class="text-white font-semibold text-xs capitalize">{{ tech.name }}</span>
