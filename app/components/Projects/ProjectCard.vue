@@ -2,6 +2,7 @@
 import { projects } from '~/data/mocksProjectCards'
 interface ProjectProp{
     image?: string,
+    language: string,
     title: string,
     description: string,
     link: string,
@@ -9,6 +10,7 @@ interface ProjectProp{
 
 const props = withDefaults(defineProps<ProjectProp>(), {
     image: 'img',
+    language: 'Project language',
     title: 'Project title',
     description: 'Project description',
     link: 'Project link',
@@ -36,6 +38,9 @@ const props = withDefaults(defineProps<ProjectProp>(), {
                 Ver Proyecto →
             </a>
            
+            <div class="inline-block m-4 text-white font-semibold bg-gradient-to-r from-fuchsia-600 to-purple-600 hover:from-fuchsia-500 hover:to-purple-500 border border-fuchsia-500 rounded-full px-4 py-2 text-xs whitespace-nowrap cursor-pointer transition-all duration-200 transform hover:scale-105">
+                <p>{{ props.language }}</p>
+            </div>
         </div>
     </div>
 </template>
