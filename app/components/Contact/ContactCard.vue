@@ -54,7 +54,7 @@ import infoContacto from '~/data/contactCards.json'
             </div>
  
             <div class="flex items-center justify-between gap-4">
-              <label class="w-28 text-fuchsia-300 font-semibold text-xs whitespace-nowrap">Surname</label>
+              <label class="w-28 text-fuchsia-300 font-semibold text-xs whitespace-nowrap">Lastname</label>
               <input
                 required
                 type="text"
