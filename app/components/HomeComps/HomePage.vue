@@ -24,8 +24,8 @@ const techs = [
 
     <div class="grid grid-cols-2 gap-8 bg-gradient-to-br from-purple-900 to-purple-800 p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 border border-purple-700">
       <div class="flex justify-center items-center bg-purple-700 bg-opacity-50 rounded-xl border border-purple-600 p-4">
-        <img src="" width="200" alt="mi foto" class="rounded-xl" />
-      </div>
+        <img src="/img/profilepicture.png">
+        </div>
       <div class="flex flex-col justify-center gap-3">
         <span class="inline-flex items-center w-fit px-4 py-2 rounded-full bg-gradient-to-r from-fuchsia-600 to-purple-600 border border-fuchsia-500 text-white font-semibold text-xs">
           AVAILABLE FOR NEW PROJECTS
