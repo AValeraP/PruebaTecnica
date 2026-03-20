@@ -2,7 +2,7 @@ export const projects = [
     {
         title: 'Pufosa',
         language: 'PHP',
-        image: 'img',
+        image: '',
         description: 'Web para la empresa PUFO.SA',
         link: 'https://github.com/AValeraP/PUFO-S.A',
     },
