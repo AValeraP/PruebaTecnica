@@ -28,7 +28,7 @@ function applyFilter() {
             
             <label>Language used: </label>
             <select class="bg-purple-600 mx-4 my-2 px-2 py-2 rounded-full" v-model="selectedOption">
-                <option value="All">All</option>
+                <label><option value="All">All</option></label>
                 <option v-for="cat in categories" :key="cat" :value="cat">
                     {{ cat }}
                 </option>
