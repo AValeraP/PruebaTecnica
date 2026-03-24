@@ -22,7 +22,7 @@ const techs = [
 <template>
   <div class="max-w-7xl mx-auto px-6 py-8 flex flex-col gap-8">
 
-    <div class="grid grid-cols-2 gap-8 bg-gradient-to-br from-purple-900 to-purple-800 p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 border border-purple-700">
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 bg-gradient-to-br from-purple-900 to-purple-800 p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 border border-purple-700">
       <div class="flex justify-center items-center bg-purple-700 bg-opacity-50 rounded-xl border border-purple-600 p-4">
         </div>
       <div class="flex flex-col justify-center gap-3">
@@ -65,7 +65,7 @@ const techs = [
       <h2 class="font-extrabold text-2xl text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-400 to-purple-400 py-4 mb-4 border-b border-purple-600 pb-4">
         Tech Stack
       </h2>
-      <ul class="grid grid-cols-6 gap-4">
+      <ul class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-4">
         <li
           v-for="tech in techs"
           :key="tech.name"
